@@ -1,4 +1,5 @@
-const API_BASE = "http://localhost:4000";
+export const API_BASE =
+  process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export async function createPost({ title, content }) {
   const res = await fetch(`${API_BASE}/posts`, {
