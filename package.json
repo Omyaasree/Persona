@@ -2,5 +2,11 @@
   "dependencies": {
     "@prisma/client": "^7.2.0",
     "prisma": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
   }
 }
